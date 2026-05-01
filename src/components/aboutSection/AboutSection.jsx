@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Skills } from "./Skills";
 import { Education } from "./Education";
+import { Experience } from "./Experience";
 const tabs = ["Skills", "Education", "Experience"];
 
 export function AboutSection() {

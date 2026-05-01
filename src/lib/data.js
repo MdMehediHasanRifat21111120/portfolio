@@ -8,50 +8,45 @@ export const projects = [
   {
     title: "Portfolio Website",
     description:
-      "A personal portfolio built with Next.js and Tailwind CSS, showcasing projects and skills with a clean dark aesthetic.",
-    image: "/images/hero.png",
-    tags: ["Next.js", "Tailwind CSS", "React"],
+      "A modern personal portfolio built with Next.js and Tailwind CSS, featuring a clean dark aesthetic to showcase projects, technical skills, and development journey with a fully responsive and optimized UI.",
+    image: "/images/project1.png",
+    tags: ["Next.js", "Tailwind CSS"],
   },
+
   {
-    title: "E-Commerce App",
+    title: "Auth App",
     description:
-      "Full-stack shopping platform with cart, auth, and payment integration. Built for performance and scalability.",
-    image: "/images/hero.png",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      "A secure authentication system built with Next.js, implementing user registration, login, and protected routes with TypeScript, ensuring scalable structure and a clean, user-friendly interface for seamless authentication flow.",
+    image: "/images/project2.png",
+    tags: ["Next.js", "Authentication", "Firebase"],
   },
+
   {
-    title: "Blog Platform",
+    title: "Contact App",
     description:
-      "A markdown-based blog with dynamic routing, syntax highlighting, and SEO-optimised static generation.",
-    image: "/images/hero.png",
-    tags: ["Next.js", "MDX", "PostgreSQL"],
+      "A contact management application built with React, implementing full CRUD operations using JSON Server. It uses Context API for efficient state management and provides a smooth interface for creating, updating, and deleting contacts, with deployment handled on Render.",
+    image: "/images/project3.png",
+    tags: [
+      "React",
+      "CRUD",
+      "Redux",
+      "JSON Server",
+      "Tailwind",
+    ],
   },
+
   {
-    title: "Task Manager",
+    title: "Fast Nourishment App",
     description:
-      "Drag-and-drop kanban board with real-time updates, user authentication, and team collaboration support.",
-    image: "/images/hero.png",
-    tags: ["React", "Express", "Socket.io"],
-  },
-  {
-    title: "Weather Dashboard",
-    description:
-      "Location-based weather app with 7-day forecast, interactive charts, and geolocation support.",
-    image: "/images/hero.png",
-    tags: ["Next.js", "OpenWeather API", "Chart.js"],
-  },
-  {
-    title: "Auth Starter",
-    description:
-      "Production-ready authentication boilerplate with JWT, OAuth, role-based access control, and refresh tokens.",
-    image: "/images/hero.png",
-    tags: ["Node.js", "JWT", "PostgreSQL"],
+      "A responsive food ordering application built with Next.js, designed for quick meal browsing with categorized menus, optimized UI design, and a smooth user experience for fast and efficient food discovery.",
+    image: "/images/project4.png",
+    tags: ["React", "Context Api", "Responsive"],
   },
 ];
 
 export const contacts = [
-  { label: "Email", value: "rifatahmdbmg@gmail.com" },
-  { label: "Location", value: "Gazipur, Dhaka, Bangladesh" },
+  { label: "Email", value: "rifatahammed2222@gmail.com" },
+  { label: "Location", value: "Gazipur Sadar, Gazipur, Dhaka, Bangladesh" },
   { label: "Status", value: "Available for work" },
 ];
 

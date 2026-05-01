@@ -84,7 +84,7 @@ export function ContactSection() {
           ) : (
             <form
               onSubmit={handleSubmit}
-              className="relative border border-zinc-800 p-8 flex flex-col gap-6"
+              className="relative border border-zinc-800 p-8 flex flex-col gap-15"
             >
               <div className="absolute top-0 left-0 size-3 border-t border-l border-zinc-700" />
               <div className="absolute bottom-0 right-0 size-3 border-b border-r border-zinc-700" />

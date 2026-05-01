@@ -1,10 +1,25 @@
 "use client";
 import Image from "next/image";
+import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "../ui/Button";
 import { info } from "@/lib/data";
 
+function smoothScroll(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const top = el.getBoundingClientRect().top + window.scrollY - 64;
+  window.scrollTo({ top, behavior: "smooth" });
+}
+
 export function HeroSection() {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const handleNav = (id) => {
+    smoothScroll(id);
+    setNavbarOpen(false);
+  };
+
   return (
     <section className="min-h-screen bg-[#0a0a0a] flex items-center px-6 lg:px-24 pt-16">
       <div className="w-full grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-0 items-center">
@@ -47,11 +62,14 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-1">
-            <Button text="Hire Me" variant="primary" />
             <Button
-              text="Download CV"
-              variant="outline"
+              type="button"
+              text="Hire Me"
+              variant="primary"
+              size="sm"
+              onClick={() => handleNav("contact")}
             />
+            <Button text="Download CV" variant="outline" />
           </div>
 
           <div className="flex gap-10 pt-6 border-t border-zinc-800/80">
@@ -69,7 +87,7 @@ export function HeroSection() {
         </div>
 
         {/* ── Image side ── */}
-        <div className="col-span-5 flex justify-center lg:justify-end">
+        <div className="col-span-5 flex justify-center lg:justify-end lg:translate-x-6">
           <div className="relative">
             {/* Subtle outer glow */}
             <div className="absolute inset-0 rounded-full bg-white/5 blur-2xl scale-125 pointer-events-none" />
@@ -81,7 +99,7 @@ export function HeroSection() {
             <div className="relative rounded-full border border-zinc-700/50 bg-zinc-900 p-1.5 shadow-[0_0_80px_rgba(0,0,0,0.7)]">
               <div className="rounded-full w-64 h-64 lg:w-80 lg:h-80 overflow-hidden bg-zinc-900">
                 <Image
-                  src="/images/hero.png"
+                  src="/images/hero.jpg"
                   width={320}
                   height={320}
                   alt="Rifat — Full Stack Developer"
