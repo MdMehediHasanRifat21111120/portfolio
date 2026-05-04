@@ -69,7 +69,9 @@ export function HeroSection() {
               size="sm"
               onClick={() => handleNav("contact")}
             />
-            <Button text="Download CV" variant="outline" />
+            <a href="/cv.pdf" download>
+              <Button text="Download CV" variant="outline" />
+            </a>
           </div>
 
           <div className="flex gap-10 pt-6 border-t border-zinc-800/80">
