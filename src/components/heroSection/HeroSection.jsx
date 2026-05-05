@@ -74,7 +74,7 @@ export function HeroSection() {
             </a>
           </div>
 
-          <div className="flex gap-10 pt-6 border-t border-zinc-800/80">
+          {/* <div className="flex gap-10 pt-6 border-t border-zinc-800/80">
             {info.map((s) => (
               <div key={s.label} className="flex flex-col gap-0.5">
                 <p className="text-white text-2xl font-bold tracking-tight">
@@ -85,7 +85,7 @@ export function HeroSection() {
                 </p>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* ── Image side ── */}
