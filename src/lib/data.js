@@ -11,6 +11,7 @@ export const projects = [
       "A modern personal portfolio built with Next.js and Tailwind CSS, featuring a clean dark aesthetic to showcase projects, technical skills, and development journey with a fully responsive and optimized UI.",
     image: "/images/project1.png",
     tags: ["Next.js", "Tailwind CSS"],
+    livelink: "https://portfolio-two-self-75.vercel.app/",
   },
 
   {
@@ -19,6 +20,7 @@ export const projects = [
       "A secure authentication system built with Next.js, implementing user registration, login, and protected routes with TypeScript, ensuring scalable structure and a clean, user-friendly interface for seamless authentication flow.",
     image: "/images/project2.png",
     tags: ["Next.js", "Authentication", "Firebase"],
+    livelink: "https://assignment-6-mern-b-5.netlify.app/",
   },
 
   {
@@ -26,13 +28,8 @@ export const projects = [
     description:
       "A contact management application built with React, implementing full CRUD operations using JSON Server. It uses Context API for efficient state management and provides a smooth interface for creating, updating, and deleting contacts, with deployment handled on Render.",
     image: "/images/project3.png",
-    tags: [
-      "React",
-      "CRUD",
-      "Redux",
-      "JSON Server",
-      "Tailwind",
-    ],
+    tags: ["React", "CRUD", "Redux", "JSON Server", "Tailwind"],
+    livelink: "https://assignment-5-mern-b5.netlify.app/",
   },
 
   {
@@ -41,6 +38,7 @@ export const projects = [
       "A responsive food ordering application built with Next.js, designed for quick meal browsing with categorized menus, optimized UI design, and a smooth user experience for fast and efficient food discovery.",
     image: "/images/project4.png",
     tags: ["React", "Context Api", "Responsive"],
+    livelink: "https://assignment-04-mern-b-5.netlify.app/",
   },
 ];
 
