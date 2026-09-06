@@ -6,6 +6,22 @@ export const navLinks = [
 
 export const projects = [
   {
+    title: "Learning management system",
+    description:
+      "Developed a full-stack Learning Management System (LMS) for managing courses, instructors, students, quizzes, attendance, assessments, and learning progress. Implemented role-based functionality for Admin, Dean, Chairman, Teacher, Instructor, and Student users using Next.js and Strapi.",
+    image: "/images/project6.png",
+    tags: ["Next.js", "Tailwind Css", "Strapi", "Railway", "Vercel"],
+    livelink: "https://lms-cps-academy.vercel.app/",
+  },
+  {
+    title: "EduTrack",
+    description:
+      "A full-stack Learning Management System that manages student attendance, course-wise quizzes, and academic activities. The system supports five roles: Admin, Dean, Chairman, Teacher, and Student, with role-based access and permissions.",
+    image: "/images/project5.png",
+    tags: ["Next.js", "Tailwind Css", "Supabase", "Vercel"],
+    livelink: "https://edutrack01.vercel.app/",
+  },
+  {
     title: "Portfolio Website",
     description:
       "A modern personal portfolio built with Next.js and Tailwind CSS, featuring a clean dark aesthetic to showcase projects, technical skills, and development journey with a fully responsive and optimized UI.",
